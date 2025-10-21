@@ -8,7 +8,7 @@ class PVE {
     constructor(playerLingChong) {
         this.playerLingChong = playerLingChong;
         this.currentLevel = 0; // 当前挑战的关卡索引 (从0开始)
-        this.currentMonster = null;
+        this.currentMonster = nullee;
         this.isInBattle = false;
         this.battleLog = [];
         this.battleSpeed = 1; // 1x, 2x, 3x
@@ -292,3 +292,4 @@ class PVE {
 }
 
 console.log("PVE module loaded.");
+
