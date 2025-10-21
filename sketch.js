@@ -5,7 +5,7 @@ let petSelectionUI;
 // Button configurations 
 let gainExpButtonConfig = { 
     x: 550, y: 50, w: 120, h: 40, 
-    label: "获取10经验", 
+    label: "获取1000经验", 
     baseColor: null, hoverColor: null, textColor: null, active: true, textSize: 14 
 };
 let getNewWeaponButtonConfig = { 
