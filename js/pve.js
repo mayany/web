@@ -8,7 +8,7 @@ class PVE {
     constructor(playerLingChong) {
         this.playerLingChong = playerLingChong;
         this.currentLevel = 0; // 当前挑战的关卡索引 (从0开始)
-        this.currentMonster = nullee;
+        this.currentMonster = null;
         this.isInBattle = false;
         this.battleLog = [];
         this.battleSpeed = 1; // 1x, 2x, 3x
